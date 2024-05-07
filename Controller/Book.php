@@ -6,7 +6,7 @@ $books = [];
     if($type == 'books') {
        
         foreach( $value as $item ) {
-           $book = new Book($item['title']);
+           $book = new Book($item['title'], $item['language'], $item['category']);
            $books[] = $book;
            /*  var_dump($item); 
             echo $item['title']; */

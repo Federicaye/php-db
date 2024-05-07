@@ -33,7 +33,7 @@ include_once __DIR__ . '/Controller/Book.php';
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $book -> title ?></h5>
-                <p class="card-text"></p>
+                <p class="card-text"><?php echo $book -> genre ?></p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
