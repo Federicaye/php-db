@@ -3,22 +3,26 @@
         {
             "id": 1,
             "title": "Harry Potter",
-            "language": "En"
+            "language": "En",
+            "category": "Fantasy"
         },
         {
             "id": 2,
             "title": "Dune",
-            "language": "En"
+            "language": "En",
+            "category": "Fantasy"
         },
         {
             "id": 3,
             "title": "Il signore degli anneli",
-            "language": "En"
+            "language": "En",
+            "category": "Fantasy"
         },
         {
             "id": 4,
             "title": "Homo Deus",
-            "language": "En"
+            "language": "En",
+            "category": "History"
         }
     ],
 
@@ -26,22 +30,26 @@
         {
             "id": 1,
             "title": "Il buono, il brutto e il cattivo",
-            "language": "En"
+            "language": "En",
+            "category": "Western"
         },
         {
             "id": 2,
             "title": "King Kong",
-            "language": "En"
+            "language": "En",
+            "category": "Fantasy"
         },
         {
             "id": 3,
             "title": "Psyco",
-            "language": "En"
+            "language": "En",
+            "category": "Horror"
         },
         {
             "id": 4,
             "title": "Il favoloso modo di Amelie",
-            "language": "En"
+            "language": "En",
+            "category": "Romance"
         }
     ]
 }

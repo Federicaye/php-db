@@ -23,8 +23,7 @@ include_once __DIR__ . '/Controller/Book.php';
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $movie -> title ?></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <p class="card-text"><?php echo $movie -> genre ?></p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
@@ -34,8 +33,7 @@ include_once __DIR__ . '/Controller/Book.php';
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $book -> title ?></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                <p class="card-text"></p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
