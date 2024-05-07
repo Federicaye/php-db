@@ -1,15 +1,15 @@
 <?php 
 include_once __DIR__. "/../Models/Movie.php";
-$movies = [];
+$books = [];
  foreach ($products as $type => $value) {
    /*  echo $type;  *///movies e books
-    if($type == 'movies') {
+    if($type == 'books') {
        
         foreach( $value as $item ) {
-           $movie = new Movie($item['title']);
-           $movies[] = $movie;
+           $book = new Book($item['title']);
+           $books[] = $book;
            /*  var_dump($item); 
             echo $item['title']; */
           }
     }}  
-var_dump($movies);
+var_dump($books);
