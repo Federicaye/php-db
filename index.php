@@ -1,6 +1,8 @@
 <?php
 //includi controller
 include_once __DIR__ . '/Controller/Movie.php';
+include_once __DIR__ . '/Controller/Book.php';
+
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +23,17 @@ include_once __DIR__ . '/Controller/Movie.php';
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $movie -> title ?></h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <?php } ?>
+        <?php foreach($books as $book) { ?>
+        <div class="card w-25 ">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><?php echo $book -> title ?></h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
