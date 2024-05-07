@@ -1,6 +1,6 @@
 <?php 
-include __DIR__. "/../Models/Movie.php";
-/*  foreach ($products as $type => $value) {
+include_once __DIR__. "/../Models/Movie.php";
+ foreach ($products as $type => $value) {
     echo $type; //movies e books
     if($type == 'books') {
        
@@ -9,4 +9,4 @@ include __DIR__. "/../Models/Movie.php";
             var_dump($item); 
             echo $item['title'];
           }
-    }}  */
+    }}  

@@ -1,5 +1,6 @@
 <?php 
-
+//includi controller
+include_once __DIR__ . '/Controller/Movie.php';
 ?>
 
 <!DOCTYPE html>
