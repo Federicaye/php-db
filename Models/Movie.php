@@ -1,6 +1,6 @@
 <?php
-include __DIR__ ."/Sale.php";
-include __DIR__ ."/Prod.php";
+include_once __DIR__ ."/Sale.php";
+include_once __DIR__ ."/Prod.php";
 $data = file_get_contents(__DIR__ . '/../data.json');
 $products = json_decode($data, true);
 var_dump($products);
