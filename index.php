@@ -24,6 +24,8 @@ include_once __DIR__ . '/Controller/Book.php';
             <div class="card-body">
                 <h5 class="card-title"><?php echo $movie -> title ?></h5>
                 <p class="card-text"><?php echo $movie -> genre ?></p>
+                <p class="card-text"><?php echo $movie -> sale -> sale ?></p>
+                
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>

@@ -7,10 +7,12 @@ class Movie {
     public $title; //posso cambiare questa variabile in qualunque punto del codice, c'è anche private e protected
     public $language;
     public $genre;
-    public function __construct($text, $language, $genre) {
+    public $sale;
+    public function __construct($text, $language, $genre, $sale) {
         $this->title = $text;
         $this->language = $language;
         $this->genre = $genre;
+        $this->sale = $sale;
     }
     public function play(){}
 }

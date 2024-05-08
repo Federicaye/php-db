@@ -7,4 +7,3 @@ class Sale {
 
 }
 
-$summerSale = new Sale(5);
