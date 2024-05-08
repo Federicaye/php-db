@@ -8,7 +8,7 @@ $movies = [];
     if($type == 'movies') {
        
         foreach( $value as $item ) {
-           $movie = new Movie($item['title'], $item['language'], $item['category'], $summerSale, $item['price']);
+           $movie = new Movie($item['title'], $item['category'],  $item['price'], $item['rating'], $summerSale, $item['language'] );
            $movies[] = $movie;
            /*  var_dump($item); 
             echo $item['title']; */
