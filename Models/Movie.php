@@ -8,13 +8,18 @@ class Movie {
     public $language;
     public $genre;
     public $sale;
-    public function __construct($text, $language, $genre, $sale) {
+
+    public $price;
+    public function __construct($text, $language, $genre, $sale, $price) {
         $this->title = $text;
         $this->language = $language;
         $this->genre = $genre;
         $this->sale = $sale;
+        $this->price = $price;
     }
-    public function play(){}
+    public function showPrice(){
+        echo  $this->price .' $';
+    }
 }
 
 /* foreach ($products as $type => $value) {

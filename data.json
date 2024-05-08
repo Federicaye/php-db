@@ -6,7 +6,7 @@
             "language": "En",
             "category": "Fantasy",
             "price": 8,
-            "sale": null
+            "rating": 4
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "language": "En",
             "category": "Fantasy",
             "price": 5,
-            "sale": null
+            "rating": 4
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "language": "En",
             "category": "Fantasy",
             "price": 8,
-            "sale": null
+            "rating": 4
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "language": "En",
             "category": "History",
             "price": 8,
-            "sale": null
+            "rating": 4
         }
     ],
 
@@ -41,7 +41,7 @@
             "language": "En",
             "category": "Western",
             "price": 8,
-            "sale": null
+            "rating": 4
         },
         {
             "id": 2,
@@ -49,7 +49,7 @@
             "language": "En",
             "category": "Fantasy",
             "price": 8,
-            "sale": null
+            "rating": 4
         },
         {
             "id": 3,
@@ -57,7 +57,7 @@
             "language": "En",
             "category": "Horror",
             "price": 8,
-            "sale": null
+            "rating": 4
         },
         {
             "id": 4,
@@ -65,7 +65,7 @@
             "language": "En",
             "category": "Romance",
             "price": 8,
-            "sale": null
+            "rating": 4
         }
     ]
 }
