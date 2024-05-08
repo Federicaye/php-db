@@ -4,25 +4,33 @@
             "id": 1,
             "title": "Harry Potter",
             "language": "En",
-            "category": "Fantasy"
+            "category": "Fantasy",
+            "price": 8,
+            "sale": null
         },
         {
             "id": 2,
             "title": "Dune",
             "language": "En",
-            "category": "Fantasy"
+            "category": "Fantasy",
+            "price": 5,
+            "sale": null
         },
         {
             "id": 3,
             "title": "Il signore degli anneli",
             "language": "En",
-            "category": "Fantasy"
+            "category": "Fantasy",
+            "price": 8,
+            "sale": null
         },
         {
             "id": 4,
             "title": "Homo Deus",
             "language": "En",
-            "category": "History"
+            "category": "History",
+            "price": 8,
+            "sale": null
         }
     ],
 
@@ -31,25 +39,33 @@
             "id": 1,
             "title": "Il buono, il brutto e il cattivo",
             "language": "En",
-            "category": "Western"
+            "category": "Western",
+            "price": 8,
+            "sale": null
         },
         {
             "id": 2,
             "title": "King Kong",
             "language": "En",
-            "category": "Fantasy"
+            "category": "Fantasy",
+            "price": 8,
+            "sale": null
         },
         {
             "id": 3,
             "title": "Psyco",
             "language": "En",
-            "category": "Horror"
+            "category": "Horror",
+            "price": 8,
+            "sale": null
         },
         {
             "id": 4,
             "title": "Il favoloso modo di Amelie",
             "language": "En",
-            "category": "Romance"
+            "category": "Romance",
+            "price": 8,
+            "sale": null
         }
     ]
 }

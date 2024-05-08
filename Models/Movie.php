@@ -1,4 +1,5 @@
 <?php
+include __DIR__ ."/Sale.php";
 $data = file_get_contents(__DIR__ . '/../data.json');
 $products = json_decode($data, true);
 var_dump($products);
